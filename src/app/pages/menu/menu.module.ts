@@ -8,6 +8,8 @@ import { MenuPageRoutingModule } from './menu-routing.module';
 
 import { MenuPage } from './menu.page';
 import { Header1Component } from 'src/app/components/header1/header1.component';
+import { KategoriComponent } from 'src/app/components/kategori/kategori.component';
+import { NomorMejaComponent } from 'src/app/components/nomor-meja/nomor-meja.component';
 
 @NgModule({
   imports: [
@@ -16,6 +18,6 @@ import { Header1Component } from 'src/app/components/header1/header1.component';
     IonicModule,
     MenuPageRoutingModule
   ],
-  declarations: [MenuPage, Header1Component]
+  declarations: [MenuPage, Header1Component, KategoriComponent, NomorMejaComponent]
 })
 export class MenuPageModule {}
