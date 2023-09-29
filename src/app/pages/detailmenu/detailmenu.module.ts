@@ -8,7 +8,7 @@ import { DetailmenuPageRoutingModule } from './detailmenu-routing.module';
 
 import { DetailmenuPage } from './detailmenu.page';
 import { Header2Component } from 'src/app/components/header2/header2.component';
-import { HerodetailmenuComponent } from 'src/app/components/herodetailmenu/herodetailmenu.component';
+import { HeroDetailmenuComponent } from 'src/app/components/herodetailmenu/herodetailmenu.component';
 
 @NgModule({
   imports: [
@@ -17,6 +17,6 @@ import { HerodetailmenuComponent } from 'src/app/components/herodetailmenu/herod
     IonicModule,
     DetailmenuPageRoutingModule
   ],
-  declarations: [DetailmenuPage, Header2Component, HerodetailmenuComponent]
+  declarations: [DetailmenuPage, Header2Component, HeroDetailmenuComponent]
 })
 export class DetailmenuPageModule {}
