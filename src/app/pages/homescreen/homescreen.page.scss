@@ -10,11 +10,23 @@
   }
   
   .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* Gaya untuk Avatar Komponen */
     margin-top: 10px; /* Jarak antara Avatar dan Card 2 */
   }
   
   .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* Gaya untuk Card 2 */ margin-bottom: 10px;
+  }
+
+  .tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   

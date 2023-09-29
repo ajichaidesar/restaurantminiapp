@@ -1,0 +1,10 @@
+/* menu-components.scss */
+
+.app-header1,
+.app-nomor-meja,
+.app-kategori {
+  display: flex; /* Menggunakan CSS Flexbox */
+  flex-wrap: wrap; /* Mengizinkan komponen untuk wrap ke baris berikutnya jika perlu */
+  gap: 10px; /* Jarak antara komponen, sesuaikan dengan yang Anda inginkan */
+}
+

@@ -32,5 +32,13 @@ body {
 
     border-radius: 30px;
     background: #000;
+    
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}

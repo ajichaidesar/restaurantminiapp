@@ -10,6 +10,8 @@ import { MenuPage } from './menu.page';
 import { Header1Component } from 'src/app/components/header1/header1.component';
 import { KategoriComponent } from 'src/app/components/kategori/kategori.component';
 import { NomorMejaComponent } from 'src/app/components/nomor-meja/nomor-meja.component';
+import {ListMenuComponent} from 'src/app/components/list-menu/list-menu.component';
+import { JumlahPesananButtonComponent } from 'src/app/components/jumlah-pesanan-button/jumlah-pesanan-button.component';
 
 @NgModule({
   imports: [
@@ -18,6 +20,6 @@ import { NomorMejaComponent } from 'src/app/components/nomor-meja/nomor-meja.com
     IonicModule,
     MenuPageRoutingModule
   ],
-  declarations: [MenuPage, Header1Component, KategoriComponent, NomorMejaComponent]
+  declarations: [MenuPage, Header1Component, KategoriComponent, NomorMejaComponent, ListMenuComponent, JumlahPesananButtonComponent]
 })
 export class MenuPageModule {}
