@@ -1,7 +1,22 @@
 {
-  "name": "digitalmenu-app",
+  "name": "restaurantminiapp",
   "integrations": {
     "cordova": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "apps": [
+    {
+      "name": "MyApp",
+      "type": "android",
+      "icon": "./assets/icon.png",
+      "splash": "./assets/splash.png",
+      "build": {
+        "appId": "com.example.myapp",
+        "minSdkVersion": 21,
+        "targetSdkVersion": 31,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    }
+  ]
 }
